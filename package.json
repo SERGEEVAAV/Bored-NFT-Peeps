@@ -1,0 +1,20 @@
+{
+  "name": "bored-nft-peeps",
+  "version": "1.0.0",
+  "description": "Bored NFT Peeps",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SERGEEVAAV/Bored-NFT-Peeps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SERGEEVAAV/Bored-NFT-Peeps/issues"
+  },
+  "homepage": "https://github.com/SERGEEVAAV/Bored-NFT-Peeps#readme"
+}

@@ -1,0 +1,11 @@
+.nav-list {
+    display: flex;
+}
+.nav-list__item {
+    @extend %font-add;
+    @include font($size: 18px, $height: 25px);
+    color: $color-link;
+    list-style: none;
+    padding: 0 30px;
+    cursor: pointer;
+}

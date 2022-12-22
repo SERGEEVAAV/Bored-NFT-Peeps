@@ -1,0 +1,10 @@
+.button {
+    @extend %font-add;
+    @include font($size: 18px, $height: 25px);
+    padding: 7px 12px 11px 28px;
+    background: $color-button;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

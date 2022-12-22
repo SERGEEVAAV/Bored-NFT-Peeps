@@ -1,0 +1,19 @@
+.header {
+  background: $color-light;
+  padding: 18px 65px 17px 65px;
+  
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  
+}
+.header__buttons {
+  margin-right: 50px;
+}
+.header__navigation {
+  display: flex;
+  align-items: center;
+
+}

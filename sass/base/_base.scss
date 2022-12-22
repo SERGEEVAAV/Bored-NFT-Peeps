@@ -1,0 +1,17 @@
+h1 {
+    @extend %font-prim;
+    @include font($size: 97px, $height: 87px);
+}
+
+h2 {
+    @extend %font-prim;
+    @include font($size: 65px, $height: 58px);
+}
+h4 {
+    @extend %font-add;
+    @include font($size: 18px, $height: 25px);
+}
+p {
+    @extend %font-add;
+    @include font($size: 18px, $height: 25px, $weight: 400);
+}
