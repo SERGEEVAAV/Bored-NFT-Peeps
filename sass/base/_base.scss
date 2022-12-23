@@ -7,6 +7,10 @@ h2 {
     @extend %font-prim;
     @include font($size: 65px, $height: 58px);
 }
+h3 {
+    @extend %font-prim;
+    @include font($size: 36px, $height: 32px);
+}
 h4 {
     @extend %font-add;
     @include font($size: 18px, $height: 25px);
@@ -14,4 +18,8 @@ h4 {
 p {
     @extend %font-add;
     @include font($size: 18px, $height: 25px, $weight: 400);
+}
+td {
+    @extend %font-prim;
+    @include font($size: 24px, $height: 22px, $weight: 400);
 }

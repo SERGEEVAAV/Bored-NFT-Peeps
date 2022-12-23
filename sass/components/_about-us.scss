@@ -1,0 +1,30 @@
+.about-us {
+    padding: 98px 0;
+}
+.about-us__wrapper {
+    background: #FDDBE2;
+}
+.about-us__content {
+    text-align: center;
+    padding-top: 141px;
+}
+.employee {
+    width: 294px;
+    height: 406px;
+    text-align: center;
+}
+.about-us__subtitle, .about-us__title {
+    margin: 0;
+}
+.employee__title {
+    @extend %font-prim;
+    @include font($size: 18px, $height: 16px);
+    color: #222222;
+    margin: 0;
+}
+.employee__name {
+    margin: 0;
+}
+.employee__content {
+    margin-top: 21px;
+}

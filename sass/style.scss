@@ -9,7 +9,7 @@
 @import "base/base";
 @import "base/button";
 @import "base/logo";
-// @import "base/icons";
+@import "base/icons";
 // @import "base/tags";
 // @import "base/hamburger";
 // @import "base/modal";
@@ -21,10 +21,11 @@
 @import "layouts/footer";
 
 //Components
-// @import "components/contact-us";
+@import "components/roadmap";
 @import "components/promo";
 @import "components/navigation";
 @import "components/peeps";
 @import "components/prime";
-// @import "components/about-us";
-// @import "components/slide";
+@import "components/tools";
+@import "components/about-us";
+@import "components/feedback";

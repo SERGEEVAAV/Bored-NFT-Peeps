@@ -1,9 +1,10 @@
+@charset "UTF-8";
 @media screen and (max-width: 500px) {
   .logo {
     width: 100px;
   }
 }
-.peeps-column__title, h2, h1 {
+.employee__title, .peeps-column__title, td, h3, h2, h1 {
   font-family: "Montserrat", Verdana, sans-serif;
 }
 
@@ -25,6 +26,13 @@ h2 {
   line-height: 58px;
 }
 
+h3 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
 h4 {
   font-size: 18px;
   font-style: normal;
@@ -37,6 +45,13 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+}
+
+td {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .button {
@@ -59,6 +74,17 @@ p {
   margin-left: 66px;
 }
 
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico_circle {
+  background-image: url("../img/roadmap/small-circle.svg");
+  width: 34px;
+  height: 36px;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -72,6 +98,7 @@ p {
 .header__wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header__buttons {
@@ -91,6 +118,87 @@ p {
   margin-top: 86px;
   margin-bottom: 90px;
   margin-left: 230px;
+}
+
+.layout-3-column {
+  display: grid;
+  grid-template-columns: repeat(3, 294px);
+  justify-content: center;
+  column-gap: 48px;
+  margin-top: 61px;
+  row-gap: 70px;
+  padding-bottom: 116px;
+}
+
+.roadmap__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roadmap__container {
+  padding: 123px 230px 0 230px;
+}
+
+.roadmap-card {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 106px;
+}
+
+.roadmap-card__content {
+  background-image: url("../../img/roadmap/IMAGE.svg");
+  background-repeat: no-repeat;
+  height: 477px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 85px 0px 75px;
+}
+
+.roadmap__content {
+  text-align: center;
+}
+
+.roadmap__subtitle, .roadmap__title {
+  margin: 0;
+}
+
+.roadmap__text {
+  width: 360px;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.roadmap__img {
+  position: relative;
+  margin-left: 88px;
+  margin-top: 90px;
+}
+
+.bigcircle__img {
+  position: absolute;
+  margin-top: 105px;
+  margin-left: -70px;
+}
+
+.sitting__img {
+  position: absolute;
+}
+
+.roadmap-card__title {
+  margin: 0;
+  margin: 9px 0 23px 0;
+}
+
+.big-circle_1 {
+  position: absolute;
+  margin-left: 341px;
+  margin-top: -331px;
+}
+
+.img_2 {
+  margin-left: 67px;
 }
 
 .promo__wrapper {
@@ -199,7 +307,10 @@ p {
 
 .prime__container {
   background: #FBF1E6;
-  padding: 0 230px 0 230px;
+  padding: 133px 230px 116px 230px;
+}
+.prime-card .prime__container:nth-child(5) {
+  border-bottom: 1px solid rgba(64, 71, 86, 0.6);
 }
 
 .prime__subtitle, .prime__title {
@@ -212,18 +323,100 @@ p {
 
 .prime-card {
   width: 980px;
-  padding-top: 67px;
+  padding: 74px 0 67px 0;
   border-top: 1px solid rgba(64, 71, 86, 0.6);
   display: flex;
-  column-gap: 226px;
+  column-gap: 250px;
 }
 
 .prime-card__title, .prime-card__subtitle, .prime-card__text {
   margin: 0;
 }
 
+.prime-card__subtitle {
+  margin: 32px 0 28px 0;
+}
+
 .prime-card__text {
   width: 336px;
+}
+
+.tool {
+  display: flex;
+  column-gap: 10px;
+  margin-right: 149px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.about-us {
+  padding: 98px 0;
+}
+
+.about-us__wrapper {
+  background: #FDDBE2;
+}
+
+.about-us__content {
+  text-align: center;
+  padding-top: 141px;
+}
+
+.employee {
+  width: 294px;
+  height: 406px;
+  text-align: center;
+}
+
+.about-us__subtitle, .about-us__title {
+  margin: 0;
+}
+
+.employee__title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  color: #222222;
+  margin: 0;
+}
+
+.employee__name {
+  margin: 0;
+}
+
+.employee__content {
+  margin-top: 21px;
+}
+
+.feedback__wrapper {
+  background: #ffffff;
+  background-image: url("../../img/roadmap/bigcircle.png");
+  background-repeat: no-repeat;
+}
+
+table {
+  width: 979px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(64, 71, 86, 0.6);
+}
+
+td {
+  border-top: 1px solid rgba(64, 71, 86, 0.6);
+  padding: 33px 0; /* Поля вокруг содержимого таблицы */
+}
+
+.feedback__subtitle, .feedback__title {
+  margin: 0;
+}
+
+.feedback__title {
+  margin-bottom: 78px;
+}
+
+.feedback__subtitle {
+  margin-bottom: 4px;
 }
 
 /*# sourceMappingURL=style.css.map */

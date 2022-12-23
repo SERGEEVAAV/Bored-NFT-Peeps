@@ -1,10 +1,12 @@
-// .prime__wrapper {
-//     padding: 0 230px 0 230px;
-// }
 
-.prime__container {
+
+.prime__container {  
     background: #FBF1E6;
-    padding: 0 230px 0 230px;
+    padding: 133px 230px 116px 230px;
+    .prime-card
+    &:nth-child(5) {
+        border-bottom: 1px solid rgba(64, 71, 86, 0.6);
+    }
 }
 
 .prime__subtitle, .prime__title {
@@ -15,15 +17,19 @@
 }
 .prime-card {
     width: 980px;
-    padding-top: 67px;
+    padding: 74px 0 67px 0;
     border-top: 1px solid rgba(64, 71, 86, 0.6);
     display: flex;
-    column-gap: 226px;
+    column-gap: 250px;
+   
    
 }
 .prime-card__title, .prime-card__subtitle, .prime-card__text {
     margin: 0;
 
+}
+.prime-card__subtitle {
+    margin: 32px 0 28px 0;
 }
 .prime-card__text {
     width: 336px;
